@@ -11,33 +11,19 @@
 <body>
 
     <header class="heading">
-        <img src="logo_imge.png" style="width: 90px; height: 80px;">
+        <img src="logo_corrigé.png" style="width: 90px; height: 80px;">
 
         <div class="liens">
-            <a href="">A propos</a>
-            <a href="">Nos livres</a>
+            <a href="apropos.html">A propos</a>
+            <a href="#noslivres">Nos livres</a>
             <a href="">Nous Contacter directement</a>
+            <a href="">Se Connecter </a>
+
         </div>
 
     </header>
 
-    <div class="enbas">
 
-
-
-        <div>
-            <h1> Bienvenue dans la Bibliothéque</h1>
-        </div>
-
-        <div class="derecherche">
-            <form action="">
-                <input type="text" id="recherche" name="recherche" placeholder="Rechercher un de nos livres">
-                <button> Rechercher </button>
-            </form>
-
-
-        </div>
-    </div>
 
 
 
@@ -47,27 +33,186 @@
         <div id="textonbackground">
             <h2>Bienvenue dans notre bibliothèque en ligne, <br> un espace numérique dédié au savoir, <br> à la lecture
                 et au partage de la culture.</h2>
-             <h3>Nous proposons une collection variée composée de : </h3>
-             <br> 
-                📚 Romans, essais, biographies et livres
-                scientifiques
-                <br>👩‍🏫 Ouvrages éducatifs et pédagogiques pour les étudiants et chercheurs<br>
-                🌍 Livres en plusieurs langues pour favoriser l’ouverture culturelle
-        
+            <p>Nous proposons une collection variée composée de</p>
+            📚 Romans, essais, biographies et livres
+            scientifiques
+            <br>👩‍🏫 Ouvrages éducatifs et pédagogiques pour les étudiants et chercheurs<br>
+            🌍 Livres en plusieurs langues pour favoriser l’ouverture culturelle
 
 
-        
 
-            
+            <div class="buttn">
+                <button>Découvrir</button>
+            </div>
+
+
+
+
         </div>
 
 
     </div>
 
-    <section id="apropos">
-        <h1> A propos de Nous </h1>
+    <section id="noslivres">
+
+        <h1>Parcourir Nos Livres </h1>
+        <div class="differentlivres">
+
+
+
+
+            <div class="chaquelivre">
+                <div>
+
+                    <img src="souslorage.jpg" alt="souslorage" style="width: 295px; height: 200px;">
+                    <h3> Sous l'Orage </h3>
+                    <h4>Auteur: Seydou Badian </h4>
+                    <p> Roman Africain Litéraire </p>
+                    <a href="">Télécharger</a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="chaquelivre">
+
+                <div>
+                    <img src="thingsfallApart.jpg" alt="thingsfallApart">
+                    <h3>Things Fall Apart </h3>
+                    <h4>Auteur: Chinua Achebe</h4>
+                    <p> Roman anglais Africain Litéraire </p>
+                    <a href="">Télécharger</a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="chaquelivre">
+                <div>
+                    <img src="Beautyful_ones_are_not_yet_born.jpg" alt="Beautyful_ones_are_not_yet_born"
+                        style="width: 295px;">
+                    <h3>The beautyful Ones Are Not Yet Born </h3>
+                    <h4>Auteur: Kofih Ayikweih Armah</h4>
+                    <p> Roman anglais Africain Litéraire </p>
+                    <a href="">Télécharger</a>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="chaquelivre">
+                <div>
+                    <img src="the mysteriesOfDeliverence.jpg" alt="the mysteriesOfDeliverence">
+                    <h3>The Mysteries Of Deliverence</h3>
+                    <h4>Auteur: Joshua Selman</h4>
+                    <p>Livre Spirituel </p>
+                    <a href="">Télécharger</a>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="chaquelivre">
+                <div>
+                    <img src="animalFarm.jpg" alt="">
+                    <h3>Animal Farm</h3>
+                    <h4>Auteur: Georges Orwell</h4>
+                    <p>Roman littéraire socio-politique </p>
+                    <a href="">Télécharger</a>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="chaquelivre">
+
+                <div>
+                    <img src="Romeo-Juliet-2025-1600x900-px-1024x576.png" alt="RomeoJuliet" style="width: 295px;">
+                    <h3>Romeo and Juliet</h3>
+                    <h4>Auteur: Williams Shakespeare</h4>
+                    <p>Pièce théathrale </p>
+                    <a href="">Télécharger</a>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="formulaireGeneral">
+            <h1> Cherchez Vous Un Livre Particulier ?</h1>
+
+            <form id="formulaireDelivre" action="" method="">
+
+                <label for="nom"> Titre du livre</label><br>
+                <input type="text" id="" name="" placeholder="obligatoire" required><br><br>
+
+
+
+                <input type="radio" id="option1" name="options" value="option1" checked>
+                <label for="option1">Roman</label><br>
+
+                <input type="radio" id="option2" name="options" value="option2">
+                <label for="option2">Drame</label><br>
+
+                <input type="radio" id="option3" name="options" value="option3">
+                <label for="option3">Poésie</label><br>
+
+                <input type="radio" id="option4" name="options" value="option4">
+                <label for="option4">Article</label><br>
+
+                <input type="radio" id="options" name="options" value="option5">
+                <label for="options">Autres type de livre</label><br>
+                <label for="text">Descrition de l'autre livre </label><br>
+                <input type="textera" id="textedescriptif" name="autreLivre"
+                    placeholder="Obligatoire Si C'est Autre Livre"><br><br>
+
+                <label for="nom"> Auteur </label><br>
+                <input type="text" id="" name="" placeholder="obligatoire" required><br><br>
+                <label for="nom">Maison d'édition</label><br>
+                <input type="text" id="" name="" placeholder="facultatif"><br><br>
+
+                <input type="submit">
+                <label for="submit"></label>
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+
+
 
     </section>
+
 
 </body>
 

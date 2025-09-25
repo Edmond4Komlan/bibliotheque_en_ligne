@@ -2,7 +2,7 @@
 
     width: 100%;
     height: 120px;
-    background-color: white;
+    background-color: rgb(228, 84, 17);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,7 +12,7 @@
 }
 
 .liens a {
-    color: rgb(228, 84, 17);
+    color: white;
 
     margin: 10px;
     font-size: 20px;
@@ -63,6 +63,127 @@
     align-items: center;
 
 }
-#apropos h1{
+
+#apropos h1 {
     text-align: center;
+}
+
+/* section de nos livres */
+
+#noslivres {
+
+    margin-top: 65px;
+    margin: 0 auto;
+    background-color: #faf4f4e0;
+
+
+}
+
+#noslivres h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.differentlivres {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    max-width: 100%;
+
+
+
+}
+
+.differentlivres .chaquelivre {
+
+    background-color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+}
+
+.differentlivres .chaquelivre:hover {
+
+    transform: scale(1.05);
+
+}
+
+/* style du formulaireGeneral*/
+
+.formulaireGeneral {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.formulaireGeneral {
+    max-width: 800px;
+
+    margin: 50px auto;
+
+    padding: 15px;
+    background: #fafafa;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+    font-family: Arial, sans-serif;
+}
+
+.formulaireGeneral h1 {
+    text-align: center;
+    font-size: 24px;
+
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formulaireGeneral label {
+    font-size: 15px;
+
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.formulaireGeneral input[type="text"],
+.formulaireGeneral textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.formulaireGeneral input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+
+}
+
+.formulaireGeneral input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.formulaireGeneral input[type="submit"]:hover {
+    background-color: rgb(228, 84, 17);
 }

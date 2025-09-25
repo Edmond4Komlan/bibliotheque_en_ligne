@@ -1,0 +1,84 @@
+.heading {
+
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.liens a {
+    color: rgb(228, 84, 17);
+
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.enbas {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 84, 17);
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+
+
+
+}
+
+.enbas>div:first-child {
+    margin: 0 auto;
+    color: white;
+}
+
+.derecherche {
+    margin-left: 0 auto;
+}
+
+
+
+/* je commence ici le style de la section apropos*/
+
+.propos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    gap: 20px;
+
+}
+
+#apropos h1 {
+    text-align: center;
+}
+
+.textpropos {
+    font-size: 20px;
+    background-color: white;
+
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 45px;
+
+}
+
+.notreHistoire h2 {
+
+    text-align: center;
+}
